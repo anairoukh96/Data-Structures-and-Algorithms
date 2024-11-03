@@ -29,3 +29,4 @@ print(list1)
 print(2 in list1)
 print(2.5 in list1)
 
+print(3 in list1)
