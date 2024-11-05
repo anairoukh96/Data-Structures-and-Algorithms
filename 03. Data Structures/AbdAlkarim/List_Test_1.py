@@ -7,11 +7,28 @@
 
 ######################################################
 
-list1 = [x for x in range(0,1000000)]
-print(list1)
+# list1 = [x for x in range(0,11)]
+# print(list1)
 
-list2 = [0.5 * x for x in list1]
-print(list2)
+# list2 = [0.5 * x for x in list1]
+# print(list2)
 
-list3 = [x for x in list2 if x < 1.5]
-print(list3)
+# list3 = [x for x in list2 if x < 1.5]
+# print(list3)
+
+#######################################################
+
+# list1 = ["yellow", "green", "red", "blue"]
+# list2 = ["red", "blue", "green"]
+
+# print(list1 == list2)
+# print(list1 != list2)
+# print(list1 >= list2)
+# print(list1 > list2)
+# print(list1 < list2)
+# print(list1 <= list2)
+
+#######################################################
+
+items = "Welcome to the SCME".split()
+print(items)
