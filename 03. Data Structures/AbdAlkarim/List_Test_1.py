@@ -7,7 +7,7 @@
 
 ######################################################
 
-list1 = [x for x in range(0,11)]
+list1 = [x for x in range(0,1000000)]
 print(list1)
 
 list2 = [0.5 * x for x in list1]
