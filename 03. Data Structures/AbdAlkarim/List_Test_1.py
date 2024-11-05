@@ -18,7 +18,7 @@
 
 #######################################################
 
-# list1 = ["yellow", "green", "red", "blue"]
+# list1 = ["green", "red", "blue"]
 # list2 = ["red", "blue", "green"]
 
 # print(list1 == list2)
@@ -31,4 +31,7 @@
 #######################################################
 
 items = "Welcome to the SCME".split()
+print(items)
+
+items = "34#13#78#45".split("#")
 print(items)
