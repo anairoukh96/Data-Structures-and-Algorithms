@@ -22,5 +22,5 @@ def linearSearch(lst, key):
         if key == lst[i]:
             return i
     return -1
-list1 = ["2,3,5,7"]
+list1 = [2,3,5,7]
 print(linearSearch(list1,5))
