@@ -10,5 +10,5 @@ del dictionary["Qusai"]
 print(dictionary)
 
 print("Karim" in dictionary)
-dictionary.keys()
+dictionary.clear()
 print(dictionary)
