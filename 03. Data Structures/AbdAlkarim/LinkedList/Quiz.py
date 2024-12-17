@@ -7,6 +7,8 @@ lstquiz.add("c")
 lstquiz.add("o")
 lstquiz.add("i")
 lstquiz.addLast("n")
+lstquiz.close
+lstquiz.addLast("n")
 
 for e in lstquiz:
     print(e, end = ' ')
