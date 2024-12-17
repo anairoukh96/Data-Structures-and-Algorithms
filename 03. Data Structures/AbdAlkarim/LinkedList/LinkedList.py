@@ -136,6 +136,9 @@ class LinkedList:
                 result += "]" # Insert the closing ] in the string
 
         return result
+    
+    def close(self):
+        self.__tail = None
 
     # Clear the list */
     def clear(self):
