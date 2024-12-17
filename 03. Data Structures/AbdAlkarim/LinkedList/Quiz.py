@@ -1,13 +1,22 @@
 from LinkedList import LinkedList
-lst = LinkedList()
-lst.add("B")
-lst.add("i")
-lst.add("t")
-lst.add("c")
-lst.add("o")
-lst.add("i")
-lst.add("n")
+lstquiz = LinkedList()
+lstquiz.addFirst("B")
+lstquiz.add("i")
+lstquiz.add("t")
+lstquiz.add("c")
+lstquiz.add("o")
+lstquiz.add("i")
+lstquiz.addLast("n")
 
-for e in lst:
+for e in lstquiz:
     print(e, end = ' ')
 print()
+
+iterator = iter(lstquiz) # Create an iterator
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
