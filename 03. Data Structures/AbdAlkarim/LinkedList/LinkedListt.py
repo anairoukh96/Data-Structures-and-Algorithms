@@ -51,3 +51,19 @@ print("(9)", lst)
 
 lst.removeAt(lst.getSize() - 1) # Remove the last element
 print("(10)", lst)
+
+
+
+
+
+# Test the LinkedList class
+
+
+# Driver Code
+circular_list = LinkedList()
+circular_list.append(1)
+circular_list.append(2)
+circular_list.append(3)
+
+print("Traversing Circular Linked List:")
+circular_list.traverse()
