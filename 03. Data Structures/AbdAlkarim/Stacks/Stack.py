@@ -1,30 +1,25 @@
-class Stack:
-    def __init__(self):
-        self.__elements = []
+def create_stack():
+    stack = []
+    return stack
 
-    # Return true if the stack is empty
-    def isEmpty(self):
-        return len(self.__elements) == 0
+def check_empty(stack):
+    return len(stack) == 0
+
+def push(stack, item):
+    stack.append(item)
+    print("pushed item: " + item)
+
+def pop(stack):
+    if check_empty(stack):
+        return "Stack is empty"
     
-    # Returns the element at the top of the stack 
-    # without removing it from the stack.
-    def peek(self):
-        if self.isEmpty():
-            return None
-        else:
-            return self.__elements[len(self.__elements) - 1]
+    return stack.pop()
 
-    # Stores an element into the top of the stack
-    def push(self, value):
-        self.__elements.append(value)
-
-    # Removes the element at the top of the stack and returns it
-    def pop(self):
-        if self.isEmpty():
-            return None
-        else:
-            return self.__elements.pop() 
-    
-    # Return the size of the stack
-    def getSize(self):
-        return len(self.__elements)
+# Test the stack operations
+stack = create_stack()
+push(stack, str("scme.edu.ps"))
+push(stack, str("login.scme.edu.ps"))
+push(stack, str("google.com"))
+push(stack, str("youtube.com"))
+print("popped item: " + pop(stack))
+print("stack after popping an element: " + str(stack))
