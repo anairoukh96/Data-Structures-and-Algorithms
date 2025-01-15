@@ -14,7 +14,7 @@ Manager_Pass = []
 
 def Manager():
     number_User_Row = int(input("Please Enter the number username: "))
-    number_User_Column = int(input("Please Enter the number Column: "))
+    number_User_Column = 1
     for row in range(0,number_User_Row):
         Manager_Pass.append([])
         for column in range(0,number_User_Column):
